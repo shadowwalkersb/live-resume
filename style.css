@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+section {
+  margin: 2em 0;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+.job, .edu, .proj {
+  margin-bottom: 1em;
+}
+
+.job h3, .edu h3, .proj h3 {
+  margin: 0;
+}
+
+.meta {
+  font-size: 0.9em;
+  color: #666;
+}
+
+ul.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.skills li {
+  background: #eee;
+  margin: 4px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 0.9em;
+}
